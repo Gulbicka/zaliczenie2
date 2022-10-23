@@ -2,22 +2,22 @@
 #include <vector>
 #include <iomanip>
 #include <iostream>
-
+using namespace std;
 int main() {
   // TODO: test code goes here
 
-   std::vector<std::pair<int, int>> tests = {
-    std::make_pair(0, 1), 
-    std::make_pair(0, 2), 
-    std::make_pair(4, 5)};
+   vector<std::pair<int, int>> tests = {
+    make_pair(0, 1), 
+    make_pair(0, 2), 
+    make_pair(4, 5)};
   for (auto test : tests) {
     if (iloraz(test.first) !=test.second) {
-      std::cerr << "FAIL: iloraz (" << test.first<<") is not" << test.second<<std::endl;
+      cerr << "FAIL: iloraz (" << test.first<<") is not" << test.second<<endl;
     
       return 1;
     }
    
-  std::cout << "OK" << std::endl;
+  cout << "OK" << endl;
   return 0;
 
 }
