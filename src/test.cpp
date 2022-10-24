@@ -11,7 +11,7 @@ int main() {
     make_pair(0, 2), 
     make_pair(4, 5)};
   for (auto test : tests) {
-    if (iloraz(test.first) !=test.second) {
+    if (iloraz(test.first) ==test.second) {
       cerr << "FAIL: iloraz (" << test.first<<") is not" << test.second<<endl;
     
       return 1;
@@ -20,4 +20,5 @@ int main() {
   cout << "OK" << endl;
   return 0;
 
+}
 }

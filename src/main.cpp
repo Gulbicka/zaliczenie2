@@ -10,7 +10,7 @@ std::cout<<"nie podano liczby"<<std::endl;
 
   }
   else {
-    std::cout<<"iloraz tej loczy przez trzy wynosi"<<iloraz(std::stof(argv[1]))<<std::endl;
+    std::cout<<"iloraz tej liczby wynosi"<<iloraz(std::stof(argv[1]))<<std::endl;
   }
   // TODO: main program function
 }
