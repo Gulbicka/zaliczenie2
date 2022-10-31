@@ -1,6 +1,6 @@
 #include "iloraz.hpp"
 
 int iloraz (int x)
-{return x*6;
+{return x*15;
 }
 // TODO: testable function definition
